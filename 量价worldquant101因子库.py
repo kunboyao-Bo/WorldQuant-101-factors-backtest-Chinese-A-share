@@ -101,7 +101,7 @@ ALPHA_REGISTRY = {
     "alpha083": {"func": lambda dfs: alpha083(dfs["high"], dfs["low"], dfs["close"], dfs["vwap"], dfs["volume"]), "required": ["high", "low", "close", "vwap", "volume"]},
     "alpha084": {"func": lambda dfs: alpha084(dfs["vwap"], dfs["close"]), "required": ["vwap", "close"]},
     "alpha085": {"func": lambda dfs: alpha085(dfs["high"], dfs["close"], dfs["low"], dfs["volume"]), "required": ["high", "close", "low", "volume"]},
-    "alpha086": {"func": lambda dfs: alpha086(dfs["close"], dfs["open"], dfs["vwap"], dfs["volume"]), "required": ["close", "open", "vwap", "volume"]},
+    "alpha086": {"func": lambda dfs: alpha086(dfs["close"], dfs["vwap"], dfs["volume"]), "required": ["close", "vwap", "volume"]},
     "alpha087": {"func": lambda dfs: alpha087(dfs["close"], dfs["vwap"], dfs["volume"], dfs["industry"]), "required": ["close", "vwap", "volume", "industry"]},
     "alpha088": {"func": lambda dfs: alpha088(dfs["open"], dfs["low"], dfs["high"], dfs["close"], dfs["volume"]), "required": ["open", "low", "high", "close", "volume"]},
     "alpha089": {"func": lambda dfs: alpha089(dfs["low"], dfs["vwap"], dfs["volume"], dfs["industry"]), "required": ["low", "vwap", "volume", "industry"]},
