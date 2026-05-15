@@ -300,7 +300,7 @@ def calc_ic(factor_df, ret_df):
 if __name__ == "__main__":
     # ── run_mode: 1=IC Decay批量, 2=分组回测批量 ─────────────────
     run_mode = 2
-    ALPHA_RANGE = range(5, 6)
+    ALPHA_RANGE = range(1, 102)
 
     from 量价worldquant101因子库 import ALPHA_REGISTRY
     import pandas as pd
